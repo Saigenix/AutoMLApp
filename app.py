@@ -15,7 +15,12 @@ from pycaret.regression  import pull as pull2
 from pycaret.regression  import compare_models as compare_models2
 from pycaret.regression  import save_model as save_model2
 
-
+st.set_page_config(
+    page_title="Automated Ml App",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 df = pd.DataFrame({})
 
 with st.sidebar:
